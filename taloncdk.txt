@@ -1,6 +1,6 @@
 repeat wait()
 until game:IsLoaded()
-local TableChat = {"."}
+local TableChat = {"Banana On Top","Config By #Hkoaa"}
 spawn(function()
     while wait() do 
         pcall(function()
@@ -59,11 +59,11 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                 },
                 ["X"] = {
